@@ -19,7 +19,8 @@ const Profile = () => {
 
   const logout = () => {
     localStorage.clear();
-    window.location.href = '/';
+    // window.location.href = '/';
+    window.location.href = `redirect_to=${window.location.origin}/filmpire/`;
   }
 
   // console.log("favorite", favoriteMovies);
